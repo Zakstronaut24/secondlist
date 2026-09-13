@@ -44,34 +44,34 @@ Website marketplace barang bekas (secondhand marketplace) modern berbasis lokasi
 - [x] Empty state ramah pengguna dengan rekomendasi reset filter
 
 ### Fase 5: Halaman Product Detail (`/product/[id]`)
-- [ ] Image Gallery (foto utama besar + thumbnail carousel interaktif)
-- [ ] Informasi harga menonjol, kondisi barang, status ketersediaan
-- [ ] Kartu profil penjual (rating bintang, jumlah barang terjual, respon rate, response time, waktu bergabung)
-- [ ] Tombol aksi cepat: "Chat Seller", "Make Offer", "Save Item", "Share"
-- [ ] Safety Reminder ("Bertemu di tempat umum dan periksa barang sebelum membayar")
-- [ ] Section "More like this" (barang serupa dalam kategori)
+- [x] Image Gallery (foto utama besar + thumbnail carousel interaktif)
+- [x] Informasi harga menonjol, kondisi barang, status ketersediaan
+- [x] Kartu profil penjual (rating bintang, jumlah barang terjual, respon rate, response time, waktu bergabung)
+- [x] Tombol aksi cepat: "Chat Seller", "Make Offer", "Save Item", "Share"
+- [x] Safety Reminder ("Bertemu di tempat umum dan periksa barang sebelum membayar")
+- [x] Section "More like this" (barang serupa dalam kategori)
 
 ### Fase 6: Halaman Chat & Negosiasi (`/chat`)
-- [ ] Layout dua kolom responsif (Daftar Percakapan di kiri, Active Chat di kanan)
-- [ ] Mini Product Header di atas chat dengan link langsung ke barang & status penawaran
-- [ ] Quick message chips ("Apakah barang masih ada?", "Bisa nego Rp...", "Bisa COD besok?")
-- [ ] Fitur kirim pesan interaktif secara real-time di browser
-- [ ] Fitur "Make Offer" (Tawar Harga) dengan notifikasi penawaran di ruang obrolan
+- [x] Layout dua kolom responsif (Daftar Percakapan di kiri, Active Chat di kanan)
+- [x] Mini Product Header di atas chat dengan link langsung ke barang & status penawaran
+- [x] Quick message chips ("Apakah barang masih ada?", "Bisa nego Rp...", "Bisa COD besok?")
+- [x] Fitur kirim pesan interaktif secara real-time di browser
+- [x] Fitur "Make Offer" (Tawar Harga) dengan notifikasi penawaran di ruang obrolan
 
 ### Fase 7: Halaman Jual Barang (`/sell`)
-- [ ] Multi-step / Simple direct listing form
-- [ ] Upload foto dengan preview interaktif
-- [ ] Input judul, kategori, harga, kondisi (Like New, Good, Fair), deskripsi
-- [ ] Pilihan lokasi kecamatan & preferensi tempat COD/ketemuan
-- [ ] Live Preview Card sebelum posting
-- [ ] CTA "Post Item" langsung masuk ke state marketplace & dapat langsung dicari!
+- [x] Multi-step / Simple direct listing form
+- [x] Upload foto dengan preview interaktif
+- [x] Input judul, kategori, harga, kondisi (Like New, Good, Fair), deskripsi
+- [x] Pilihan lokasi kecamatan & preferensi tempat COD/ketemuan
+- [x] Live Preview Card sebelum posting
+- [x] CTA "Post Item" langsung masuk ke state marketplace & dapat langsung dicari!
 
 ### Fase 8: Saved Items (`/saved`) & User Profile (`/profile`)
-- [ ] Halaman Saved Items dengan indikator "Price Dropped"
-- [ ] Halaman Profil Pengguna dengan tab: "Barang Dijual", "Barang Terjual", "Ulasan Pembeli"
-- [ ] Indikator reputasi penjual (Badge Verified, Level Respon Cepat)
+- [x] Halaman Saved Items dengan indikator "Price Dropped"
+- [x] Halaman Profil Pengguna dengan tab: "Barang Dijual", "Barang Terjual", "Ulasan Pembeli"
+- [x] Indikator reputasi penjual (Badge Verified, Level Respon Cepat)
 
 ### Fase 9: QA, Responsiveness & Final Polish
-- [ ] Verifikasi seluruh alur navigasi di Desktop, Tablet, dan Mobile
-- [ ] Build test (`npm run build`) untuk memastikan tidak ada TypeScript error
-- [ ] Walkthrough dokumentasi dan panduan presentasi
+- [x] Verifikasi seluruh alur navigasi di Desktop, Tablet, dan Mobile
+- [x] Build test (`npm run build`) untuk memastikan tidak ada TypeScript error (12 routes prerendered)
+- [x] Walkthrough dokumentasi dan panduan presentasi
